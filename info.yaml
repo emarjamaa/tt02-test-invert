@@ -15,7 +15,7 @@ project:
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
   author:       "Matt Venn"      # Your name
-  title:        "test project"      # Project title
+  title:        "Test Inverter Project"      # Project title
   description:  "inverts every line"      # Short description of what your project does
   how_it_works: "uses 8 inverters to invert every line"      # Longer description of how the project works
   how_to_test:  "setting the input switch to on should turn the corresponding led off"      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed

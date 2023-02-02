@@ -1,9 +1,9 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id:    355571251849098241        # If using wokwi, set this to your project's ID
+  wokwi_id:    0        # If using wokwi, set this to your project's ID
 #  source_files:        # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. Source files must be in ./src
-
+  inverter.v
 #  top_module:  "Enni_inverter"      # put the name of your top module here, make it unique by prepending your github username
 
 # As everyone will have access to all designs, try to make it easy for someone new to your design to know what
@@ -20,7 +20,7 @@ documentation:
   how_it_works: "Uses 8 inverters to invert every line."      # Longer description of how the project works
   how_to_test:  "Setting the input switch to on should turn the corresponding LED off."      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   external_hw:  ""      # Describe any external hardware needed
-  language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
+  language:     "v" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     0       # Clock frequency in Hz (if required)
   picture:      ""      # relative path to a picture in your repository

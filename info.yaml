@@ -1,7 +1,7 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id:    354191977786280961        # If using wokwi, set this to your project's ID
+  wokwi_id:    355571251849098241        # If using wokwi, set this to your project's ID
 #  source_files:        # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. Source files must be in ./src
 #    - counter.v
 #    - decoder.v
@@ -14,8 +14,8 @@ project:
 #
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
-  author:       "Matt Venn"      # Your name
-  discord:      "mattvenn#1907"      # Your discord handle
+  author:       "Enni"      # Your name
+  discord:      "N/A"      # Your discord handle
   title:        "Test Inverter Project"      # Project title
   description:  "Inverts every line. This project is also used to fill any empty design spaces."      # Short description of what your project does
   how_it_works: "Uses 8 inverters to invert every line."      # Longer description of how the project works
